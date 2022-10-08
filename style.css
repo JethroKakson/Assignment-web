@@ -1,0 +1,12 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.img{
+	width: 80%;
+	margin: 10px;
+}
+.img img{
+	width: 20%;
+	height: auto;
+}
