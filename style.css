@@ -2,17 +2,121 @@
 	font-family: sans-serif;
 	box-sizing: border-box;
 }
+.index-body{
+	background-image: url(./assets/pexels-markus-spiske-2004161.jpg);
+}
+.gallery-body{
+	background-image: url(./assets/1.jpg);
+}
+.about-body{
+	background-image: url(./assets/5.jpg);
+}
+.school-body{
+	background-image: url(./assets/7.jpg);
+}
+.contacts-body{
+	background-image: url(./assets/6.jpg);
+}
+.index-body, .about-body, .gallery-body, .school-body, .contacts-body{
+	width: 100vw;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1{
+	font-size:50px;
+	padding-left: 10px;
+	color: white;
+}
 .img{
-	width: 80%;
-	margin: 10px;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 }
 .img img{
 	width: 30%;
 	height: auto;
+	border-radius: 10px;
 }
-ul li{
+.img video{
+	width: 60%;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.ul{
+	display: flex;
+	width: 40%;
+	justify-content: space-around;
+	padding-left: 20px;
+}
+.ul li{
 	list-style-type: none;
+	margin-top: 40px;
 }
-ul li a{
+.ul li a{
 	text-decoration: none;
+	padding: 10px;
+	background: #123456;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+}
+.ul li a:hover{
+	background: transparent;
+}
+span{
+	color: #ff4567;
+}
+.content{
+	display: flex;
+	margin: 0  auto;
+	width: 90%;
+}
+.content div{
+	width: 30%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background: rgba(0, 0, 0, .6);
+	margin-left: 20px;
+	border-radius: 20px;
+	padding-right: 10px;
+}
+h2{
+	color: #ff4567;
+}
+.content div ul li{
+	list-style-type: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+h4, h3{
+	color: white;
+}
+p{
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	padding-left: 20px;
+}
+.paragraph{
+	padding-left: 20px;
+	background: rgba(0,0,0,.5);
+}
+.paragraph h3, .paragraph h5{
+	padding-left: 20px;
+}
+.paragraph h5{
+	font-size: 20px;
+	color: cyan;
+}
+.paragraph h1{
+	color: #ff4567;
 }
